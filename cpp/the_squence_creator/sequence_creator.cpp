@@ -22,6 +22,7 @@ int main(){
 	cout << " }";
 	cout << endl;
 	cout << endl;
+	system("pause");
 
 	return 0;
 }
