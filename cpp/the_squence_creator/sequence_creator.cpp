@@ -120,11 +120,14 @@ int main(){
 		for(int i=0; i<n; i++) temp_seq[i]=sequence[i];
 
 	}
+
+	cout << endl;
 	if(find){
-		std::cout << "True" << std::endl;
+		std::cout << "Find!!" << std::endl;
 	}
-	else
-		std::cout << "False" << std::endl;
+	else{
+		std::cout << "No Find!!" << std::endl;
+	}
 
 
 	system("pause");
